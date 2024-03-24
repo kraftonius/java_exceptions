@@ -80,6 +80,7 @@ public class App implements AutoCloseable {
                 throw new IOException("Ошибка при создании файла: " + file.getName());
             }
         }
+        System.out.println("Записано в файл:" + personDataArray[0] + ".txt в папке: " + folderPath);
     }
 
     // Метод для разбора введенного текста на части
